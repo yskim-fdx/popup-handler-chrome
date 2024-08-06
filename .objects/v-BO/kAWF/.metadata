@@ -1,0 +1,15 @@
+﻿{
+  "Name": "1.0.0",
+  "Type": "AppVersion",
+  "Id": "kAWFpnu700m_dA9_BJRL-w",
+  "Reference": "1wwHbUBVIUmO3qd-vAXyuA/kAWFpnu700m_dA9_BJRL-w",
+  "ParentRef": "1wwHbUBVIUmO3qd-vAXyuA/v-BO4b1stEWO4wm4dXD2cA",
+  "Created": "2024-08-06T02:00:40.0301658Z",
+  "Updated": "2024-08-06T02:00:40.0301658Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

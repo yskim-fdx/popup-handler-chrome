@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vrGMgmYmHkmHl3vtREhwmQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="30dfc378-eb33-4a4f-8275-8d2b4ed056d0" CvElementArea="1102, 173, 76, 49" CvTextArea="1125, 188, 28, 17" CvTextArgument="#2!" CvType="Button" DesignTimeRectangle="1108, 179, 64, 38" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'확인'" FullSelectorArgument="&lt;ctrl name='* 내용:' role='dialog' /&gt;&lt;ctrl name='확인' role='push button' text='확인' /&gt;" FuzzySelectorArgument="&lt;ctrl name='* 내용:' role='dialog' /&gt;&lt;ctrl name='확인' role='push button' text='확인' automationid='' check:text='확인' /&gt;" Guid="340acaca-721c-4f67-95f3-0021702f56e1" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='NAVER - Chrome' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dcb8f589452a279453bb594a599e2efb.png" xmlns="">0ZuE-drCdmUy0qI9b0N85yQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

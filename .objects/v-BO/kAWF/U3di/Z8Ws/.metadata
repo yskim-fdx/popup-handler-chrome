@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Popup Message",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Id": "Z8WsOxKiYU6o0smXhco3-g",
+  "Reference": "1wwHbUBVIUmO3qd-vAXyuA/Z8WsOxKiYU6o0smXhco3-g",
+  "ParentRef": "1wwHbUBVIUmO3qd-vAXyuA/U3di5Ik6vUG8ZQ9gTdGRzA",
+  "Created": "2024-08-06T02:00:40.2715776Z",
+  "Updated": "2024-08-06T02:00:40.2715776Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

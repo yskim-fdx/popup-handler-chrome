@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="REyEZi5YtUCmOmpLZpKWyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="744, 143, 448, 60" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'hello dfsfdsf 3333'" FullSelectorArgument="&lt;ctrl name='* 내용:' role='dialog' /&gt;&lt;ctrl idx='3' role='pane' /&gt;&lt;nav up='1' /&gt;&lt;ctrl role='pane' matching:text='regex' text='.+' /&gt;" FuzzySelectorArgument="&lt;ctrl name='* 내용:' role='dialog' /&gt;&lt;ctrl role='text' matching:text='regex' text='.+' automationid='' /&gt;" Guid="bd7fec0e-e56e-40d1-8c5c-cbc2d244a68f" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='전자공시시스템 - Chrome' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2701d796f515de146266be642033f00b.png" xmlns="">0KltTtIULVEi9Grj1kLu-zQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

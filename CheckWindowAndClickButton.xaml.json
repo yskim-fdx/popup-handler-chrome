@@ -1,0 +1,45 @@
+{
+  "DisplayName": "CheckWindowAndClickButton",
+  "Tooltip": "Title 기준 Chrome Popup 처리\r\n\r\nUse Browser/Application 에서 output의 uielement.Get(\"title\") 사용하여 Title 얻을 수 있음",
+  "HelpLink": null,
+  "Color": "#4285F4",
+  "OriginalIconFileName": "chrome.svg",
+  "Arguments": [
+    {
+      "Name": "in_ChromeTitle",
+      "DisplayName": "in_ChromeTitle",
+      "Category": null,
+      "Tooltip": "Use Browser/Application 에서 output의 uielement.Get(\"title\") 사용하여 Title 얻을 수 있음",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_PopupTitle",
+      "DisplayName": "out_PopupTitle",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_PopupMessage",
+      "DisplayName": "out_PopupMessage",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

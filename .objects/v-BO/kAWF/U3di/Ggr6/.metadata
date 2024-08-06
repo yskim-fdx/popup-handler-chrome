@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Popup button 확인",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Ggr6OP1FZUahYw5rZ5KKjA",
+  "Reference": "1wwHbUBVIUmO3qd-vAXyuA/Ggr6OP1FZUahYw5rZ5KKjA",
+  "ParentRef": "1wwHbUBVIUmO3qd-vAXyuA/U3di5Ik6vUG8ZQ9gTdGRzA",
+  "Created": "2024-08-06T02:00:40.1797249Z",
+  "Updated": "2024-08-06T02:00:40.1797249Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Popup on chrome",
+  "Type": "Screen",
+  "Id": "U3di5Ik6vUG8ZQ9gTdGRzA",
+  "Reference": "1wwHbUBVIUmO3qd-vAXyuA/U3di5Ik6vUG8ZQ9gTdGRzA",
+  "ParentRef": "1wwHbUBVIUmO3qd-vAXyuA/kAWFpnu700m_dA9_BJRL-w",
+  "Created": "2024-08-06T02:00:40.0951188Z",
+  "Updated": "2024-08-06T02:00:40.0951188Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

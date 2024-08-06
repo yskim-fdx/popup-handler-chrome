@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2BjQ9iQ-vEyGOk2EUhgcaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="764, 111, 408, 24" DesignTimeScaleFactor="1" FriendlyName="'stackoverflow.com 내용'" FullSelectorArgument="&lt;ctrl name='* 내용:' role='dialog' /&gt;&lt;ctrl role='title bar' /&gt;" FuzzySelectorArgument="&lt;ctrl name='stackoverflow.com 내용:' role='dialog' /&gt;&lt;ctrl role='title bar' automationid='' /&gt;" Guid="e402bf27-7368-4135-b2bd-61f4c08bb91b" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='New line in JavaScript alert box - Stack Overflow - Chrome' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="70260897a88d42f66693e4fd52a2a36e.png" xmlns="">00CHWJs8IGUO7RXXJ-ygIOA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

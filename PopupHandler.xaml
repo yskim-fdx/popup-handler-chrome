@@ -16,7 +16,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1085,1204</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1278,1204</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>PopupHandler_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -111,11 +111,7 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="PopupHandler" sap:VirtualizedContainerService.HintSize="546,1139" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:Object" Name="str_SequenceName">
-        <Variable.Default>
-          <VisualBasicValue x:TypeArguments="x:Object" ExpressionText="&quot;Sub_PopupHandlerChrome&quot;" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:Object" Default="[&quot;Sub_PopupHandlerChrome&quot;]" Name="str_SequenceName" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -149,7 +145,7 @@
                 <uix:TargetAnchorable ContentHash="REyEZi5YtUCmOmpLZpKWyg" DesignTimeRectangle="744, 143, 448, 60" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Popup Message'" FullSelectorArgument="&lt;ctrl name='* 내용:' role='dialog' /&gt;&lt;ctrl idx='3' role='pane' /&gt;&lt;nav up='1' /&gt;&lt;ctrl role='pane' matching:text='regex' text='.+' /&gt;" FuzzySelectorArgument="&lt;ctrl name='* 내용:' role='dialog' /&gt;&lt;ctrl role='text' matching:text='regex' text='.+' automationid='' /&gt;" Guid="bd7fec0e-e56e-40d1-8c5c-cbc2d244a68f" ImageBase64="" InformativeScreenshot="2701d796f515de146266be642033f00b.png" Reference="FTSNfCIuF0GqqVbCgHJfBw/V9sejN95-EqOU-dZSfQU1g" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='전자공시시스템 - Chrome' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NGetText.Target>
             </uix:NGetText>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[String.Format(&quot;[{0}] 내용: {1}&quot;, str_SequenceName, out_popupMessage)]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,143" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[String.Format(&quot;[{0}] 팝업제목: {1}, 팝업내용: {2}&quot;, str_SequenceName, out_popupTitle, out_popupMessage)]" />
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button '확인''" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fb76ccb8-b59f-4e89-a03f-55ed005b7415" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="30dfc378-eb33-4a4f-8275-8d2b4ed056d0" ContentHash="vrGMgmYmHkmHl3vtREhwmQ" CvElementArea="1102, 173, 76, 49" CvTextArea="1125, 188, 28, 17" CvTextArgument="#2!" CvType="Button" DesignTimeRectangle="1108, 179, 64, 38" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Button '확인''" FullSelectorArgument="&lt;ctrl name='* 내용:' role='dialog' /&gt;&lt;ctrl name='확인' role='push button' text='확인' /&gt;" FuzzySelectorArgument="&lt;ctrl name='* 내용:' role='dialog' /&gt;&lt;ctrl name='확인' role='push button' text='확인' automationid='' check:text='확인' /&gt;" Guid="340acaca-721c-4f67-95f3-0021702f56e1" InformativeScreenshot="dcb8f589452a279453bb594a599e2efb.png" Reference="FTSNfCIuF0GqqVbCgHJfBw/zLwkufolJEGog4cLPFpkEw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='NAVER - Chrome' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />

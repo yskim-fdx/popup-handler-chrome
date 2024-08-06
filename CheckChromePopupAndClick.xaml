@@ -13,7 +13,7 @@
     <x:Null />
   </VisualBasic.Settings>
   <sap2010:Annotation.AnnotationText>UPTF00000144eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjoiVGl0bGUg6riw7KSAIENocm9tZSBQb3B1cCDsspjrpqxcclxuXHJcblVzZSBCcm93c2VyXC9BcHBsaWNhdGlvbiDsl5DshJwgb3V0cHV07J2YIHVpZWxlbWVudC5HZXQoXCJ0aXRsZVwiKSDsgqzsmqntlZjsl6wgVGl0bGUg7Ja77J2EIOyImCDsnojsnYwiLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
-  <sap:VirtualizedContainerService.HintSize>1102,2405</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1278,2405</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>CheckWindowAndClickButton_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -110,7 +110,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Title 기준 Chrome Popup 처리&#xD;&#xA;&#xD;&#xA;Use Browser/Application 에서 output의 uielement.Get(&quot;title&quot;) 사용하여 Title 얻을 수 있음" DisplayName="CheckWindowAndClickButton" sap:VirtualizedContainerService.HintSize="1112,2340" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Title 기준 Chrome Popup 처리&#xA;&#xA;Use Browser/Application 에서 output의 uielement.Get(&quot;title&quot;) 사용하여 Title 얻을 수 있음" DisplayName="CheckWindowAndClickButton" sap:VirtualizedContainerService.HintSize="1112,2340" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_SelectorChromeWindows" />
       <Variable x:TypeArguments="ui:UiElement" Name="uie_FoundTarget" />
@@ -214,7 +214,7 @@
     <ui:IfElseIf DisplayName="Else If - 윈도우 창 확인 못한 경우" sap:VirtualizedContainerService.HintSize="1050,448" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
       <ui:IfElseIf.ConditionBlocks>
         <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-          <ui:IfElseIfBlock BlockType="If" Condition="[uie_FoundTarget is Nothing]">
+          <ui:IfElseIfBlock BlockType="If" Condition="[uie_FoundTarget is Nothing]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_1">
             <ui:IfElseIfBlock.Then>
               <Sequence DisplayName="Selector 기준 윈도우 창 찾지 못함" sap:VirtualizedContainerService.HintSize="450,252" sap2010:WorkflowViewState.IdRef="Sequence_5">
                 <sap:WorkflowViewStateService.ViewState>

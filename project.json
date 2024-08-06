@@ -4,7 +4,7 @@
   "description": "Click chrome popup and get messages",
   "main": "NewActivity.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "23.10.6",
+    "UiPath.System.Activities": "24.3.1",
     "UiPath.UIAutomation.Activities": "23.10.11"
   },
   "webServices": [],

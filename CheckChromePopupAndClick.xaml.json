@@ -18,9 +18,21 @@
       "DataSourceItems": null
     },
     {
+      "Name": "out_PopupExist",
+      "DisplayName": "out_PopupExist",
+      "Category": "Out",
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Toggle",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
       "Name": "out_PopupTitle",
       "DisplayName": "out_PopupTitle",
-      "Category": null,
+      "Category": "Out",
       "Tooltip": null,
       "Placeholder": null,
       "Widget": "TextComposer",
@@ -32,22 +44,10 @@
     {
       "Name": "out_PopupMessage",
       "DisplayName": "out_PopupMessage",
-      "Category": null,
+      "Category": "Out",
       "Tooltip": null,
       "Placeholder": null,
       "Widget": "TextComposer",
-      "IsRequired": false,
-      "IsPrincipal": false,
-      "ArgumentType": 0,
-      "DataSourceItems": null
-    },
-    {
-      "Name": "out_PopupExist",
-      "DisplayName": "out_PopupExist",
-      "Category": null,
-      "Tooltip": null,
-      "Placeholder": null,
-      "Widget": "Toggle",
       "IsRequired": false,
       "IsPrincipal": false,
       "ArgumentType": 0,
